@@ -666,9 +666,10 @@
     <script src="JS/DP.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="./slick.jquery.json"></script>
     <script>
-      $(document).ready(function(){
-        $('.cards').slick({
+      $(document).ready(function () {
+        $(".cards").slick({
           autoplay: true,
           autoplaySpeed: 1000,
           arrows: true,
@@ -681,7 +682,7 @@
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 arrows: false,
-              }
+              },
             },
             {
               breakpoint: 769,
@@ -689,7 +690,7 @@
                 slidesToShow: 2,
                 slidesToScroll: 2,
                 arrows: false,
-              }
+              },
             },
             {
               breakpoint: 480,
@@ -697,9 +698,9 @@
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,
-              }
-            }
-          ]
+              },
+            },
+          ],
         });
       });
     </script>

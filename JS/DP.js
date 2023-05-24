@@ -53,5 +53,3 @@ cartBtn.forEach((element) => {
     orderNo + 1;
   };
 });
-
-
